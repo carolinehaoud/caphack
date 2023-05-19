@@ -18,8 +18,5 @@ function App() {
             <Route path="/todo" element={<TodoPage/>}/> 
          </Routes>
       </Router>
-    </div>
-  );
-}
 
 export default App;
