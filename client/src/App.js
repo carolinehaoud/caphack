@@ -1,5 +1,5 @@
 import TodoPage from './components/TodoPage';
-import NavBar from './components/TheNavbar';
+import NavBar from './components/TheNavBar';
 import HomePage from './components/HomePage';
 import StatPage from './components/StatPage';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
@@ -19,5 +19,9 @@ function App() {
             <Route path="/todo" element={<TodoPage/>}/> 
          </Routes>
       </Router>
+      </div>
+    );
+}
+
 
 export default App;
