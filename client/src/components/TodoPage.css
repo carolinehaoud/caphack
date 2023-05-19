@@ -1,0 +1,22 @@
+.todos{
+    display: grid;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  button {
+    background-color: #D22E1E;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    margin-left: 110px;
+    margin-right: 110px;
+  }
+
+  .description{
+    margin: 20px;
+  }
+
+  .todos, .description {float:left; display:inline; width: 45%;} 

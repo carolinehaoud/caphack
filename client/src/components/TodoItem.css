@@ -1,0 +1,11 @@
+.item {
+    background-color: #C6D2ED;
+    border: 30px solid #C6D2ED;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.itemName {
+    color: #D22E1E;
+    font-size: 20px;
+}

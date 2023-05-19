@@ -1,11 +1,22 @@
-import React from "react";
+import TodoPage from './components/TodoPage';
+import NavBar from './components/TheNavbar';
+import HomePage from './components/HomePage';
+import StatPage from './components/StatPage';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import './App.css';
 
-function App(){
+
+// src/App.js
+function App() {
   return (
-    <div>
-      <h1>App</h1>
-    </div>
-  );
-}
+    <div className="App">
+      <Router>
+        <NavBar/>
+          <Routes>
+            <Route path="/" element={<HomePage/>}/>
+            <Route path='/stats' element={<StatPage/>}/>
+            <Route path="/todo" element={<TodoPage/>}/> 
+         </Routes>
+      </Router>
 
 export default App;
