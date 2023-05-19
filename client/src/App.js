@@ -4,6 +4,7 @@ import HomePage from './components/HomePage';
 import StatPage from './components/StatPage';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import './App.css';
+import React from "react";
 
 
 // src/App.js
